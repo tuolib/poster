@@ -1,0 +1,23 @@
+<div class="content" role="main">
+  <div class="box">
+    <div class="title">Joining our activity!</div>
+    <div class="input-item">
+      <div class="input-label">Name: </div>
+      <input class="input" type="text" [(ngModel)]="name" />
+    </div>
+    <div class="input-item">
+      <div class="input-label">Mobile: </div>
+      <input class="input" type="text" [(ngModel)]="mobile" />
+    </div>
+    <div class="input-item">
+      <div class="input-label">Email: </div>
+      <input class="input" type="text" [(ngModel)]="email" />
+    </div>
+    <div class="red">{{ tips }}</div>
+    <div class="green">{{ successWord }}</div>
+    <div>
+      <div class="submit active" (click)="signUp()">Submit</div>
+    </div>
+  </div>
+</div>
+

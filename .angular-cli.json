@@ -1,0 +1,9 @@
+{
+  "styles": [
+    "styles.scss"
+  ],
+  "defaults":{
+    "styleExt": "scss",
+    "component": {}
+  }
+}
