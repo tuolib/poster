@@ -8,8 +8,9 @@
     "build:prod": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "build:stats": "ng build --prod --stats-json & webpack-bundle-analyzer dist/poster/stats.json",
-    "e2e": "ng e2e"
+    "build:stats": "ng build --prod --stats-json && webpack-bundle-analyzer dist/poster/stats.json",
+    "e2e": "ng e2e",
+    "gzip": "ng build --prod && gzipper compress  ./dist"
   },
   "private": true,
   "dependencies": {
